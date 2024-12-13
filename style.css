@@ -1,0 +1,414 @@
+
+
+
+
+*{
+    font-family: lato, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.header{
+background-color: #181e4e;
+width: 100%;
+}
+.first-div{
+
+display: flex;
+padding: 0px 47px;
+width: 100%;
+max-width: 1350px;
+justify-items: center;
+margin: 0 auto;
+}
+.text{
+    display: flex;
+    color: white;
+        width: 100%;
+        justify-content: end;
+        gap: 40px;
+        padding: 11px 0px;
+}
+.text h1{
+    padding: 11px;
+    gap: 9px;
+    display: flex;
+}
+.text h2{
+    background: transparent;
+        border: 2px solid #ffc145;
+        color: #ffc145;
+        padding: 14px 17px;
+        font-size: 20px;
+        cursor: pointer;
+}
+.second-div nav{
+padding: 16px 81px;
+    display: flex;
+    gap: 35px;
+    color: black;
+    font-weight: 900;
+    width: 100%;
+        max-width: 1350px;
+        justify-items: center;
+        margin: 0 auto;
+   
+}
+.second-div nav a {
+    text-decoration: none;
+    color: #333;
+    position: relative;
+    /* For positioning the pseudo-element */
+    transition: opacity 0.08s;
+    opacity: 1;
+}
+
+.second-div nav a::after {
+    content: "";
+    /* Creates a pseudo-element for the border */
+    position: absolute;
+    /* Positions it relative to the anchor tag */
+    bottom: -2px;
+    /* Places it just below the text */
+    left: 50%;
+    /* Starts at the center */
+    width: 0;
+    /* Initially zero width */
+    height: 2px;
+    /* Thickness of the border */
+    background-color: #333;
+    /* Color of the border */
+    transition: width 0.5s ease-out, left 0.5s ease-out;
+    /* Smooth animation */
+}
+
+.second-div nav a:hover::after {
+    width: 100%;
+    /* Expands the border to full width */
+    left: 0;
+    /* Moves the starting point to the left edge */
+}
+
+
+.line{
+        margin: 0px 68px;
+    border-bottom: 3px solid #ffc145;
+}
+
+/* sticky navbar */
+.first-div {
+    background-color: #181e4e;
+    display: flex;
+    padding: 0px 47px;
+    position: sticky;
+    /* Makes it sticky */
+    top: 0;
+    /* Sticks at the top of the viewport */
+    z-index: 1000;
+    /* Ensures it stays above other content */
+}
+
+.second-div {
+    position: sticky;
+    /* Makes it sticky */
+    top: 70px;
+    /* Adjust based on the height of the .first-div */
+    z-index: 999;
+    /* Ensures it stays above other content */
+    background-color: white;
+    /* Keeps the background visible when scrolling */
+}
+
+/* firstsec */
+ .menu{
+    background-color: #181e4e;
+        width: 100%;
+ }
+.firstsec{
+    display: flex;
+        padding-top: 149px;
+        background-color:#181e4e;
+        width: 100%;
+            max-width: 1350px;
+            justify-items: center;
+            margin: 0 auto;
+}
+.text1{
+        width: 59%;
+            padding: 1px 47px;
+}
+.text1 h1{
+    font-size: 75px;
+    color: #ffc145;
+        line-height: 1;
+}
+.text1 h2 {
+   
+    font-size: 65px;
+    color: #fff;
+}
+.text1 p{
+    font-size: 1.25rem;
+        color: #fff;
+        line-height: 1;
+}
+.form {
+    background-color: #fff;
+    width: 36%;
+    padding: 29px 32px;
+    text-align: left;
+    border-radius: 8px;
+    margin-top: -65px;
+    padding-top: 18px;
+        padding-bottom: 18px;
+}
+
+.form h1{
+    color: #181e4e;
+}
+.form h2{
+    color:#4b587c;
+}
+
+.frm,
+.frm1 {
+    font-size: 22px;
+    width: 100%;
+    padding: 30px 5px;
+    font-size: 21px;
+    background: transparent;
+    /* Makes the background transparent */
+    border: none;
+    /* Removes the default border */
+    border-bottom: 2px solid #333;
+    /* Adds a bottom border */
+    outline: none;
+    /* Removes focus outline */
+    transition: border-color 0.3s ease;
+    /* Smooth transition for border color */
+}
+
+.frm:focus,
+.frm1:focus {
+    border-bottom: 2px solid #ffc145;
+    /* Changes the bottom border color on focus */
+    outline: none;
+    /* Ensures no extra outline appears */
+}
+
+.frm1 {
+    cursor: pointer;
+    /* Changes cursor to pointer for select dropdowns */
+}
+
+button {
+    margin-top: 34px;
+    padding: 14px 166px;
+    background-color: #ffc145;
+    color: #181e4e;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #181e4e;
+    color: #ffc145;
+}
+.secsec {
+    padding: 20px;
+        width: 100%;
+      
+        background-color: rgb(249 249 255);
+}
+.secsec1{
+    max-width: 1350px;
+        justify-items: center;
+        margin: 0 auto;
+}
+
+.secsec1 h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #181e4e;
+}
+
+.subsec {
+    display: flex;
+   
+}
+
+.div1 {
+    display: flex;
+    /* Aligns children horizontally */
+    align-items: center;
+    /* Centers content vertically */
+    /* Light gray background */
+    border: 1px solid #ccc;
+    /* Light gray border */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    padding: 16px;
+    /* Adds some spacing inside */
+    width: 305px;
+    /* Optional: to limit width */
+    margin: 20px 5px;
+    /* Center aligns the div */
+    background-color: #fff;
+}
+
+.div1 img {
+    width: 80px;
+    /* Adjust size of the image */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-right: 16px;
+    /* Space between the image and text */
+}
+
+.div1 .content {
+    display: flex;
+    flex-direction: column;
+    /* Stack heading and paragraph vertically */
+}
+
+.div1 h3 {
+    font-size: 1.5rem;
+    /* Adjust font size */
+    margin: 0 0 8px 0;
+    /* Space below the heading */
+}
+
+.div1 p {
+    font-size: 1rem;
+    /* Adjust paragraph size */
+    color: #555;
+    /* Slightly darker text for better readability */
+    margin: 0;
+    /* Remove default margins */
+}
+.third {
+    background-image: url('https://i.gzn.jp/img/2022/03/17/google-acquires-microled-raxium/00_m.jpg');
+    background-size: cover;
+    /* Ensures the image covers the entire section */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    color: #fff;
+    /* White text for readability */
+    min-height: 300px;
+    /* Minimum height of the section */
+  
+}
+.subthird{
+        padding: 81px 43px;
+        color: #fff;
+        margin-left: 67px;
+        width: 100%;
+            max-width: 1350px;
+            justify-items: center;
+            margin: 0 auto;
+        
+}
+.subthird1{
+    border-left: 5px solid white;
+}
+.subthird h1{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 2;
+    margin-left: 10px;
+}
+.subthird h2 {
+    font-weight: 800;
+    margin-left: 10px;
+}
+.subthird p{
+        width: 40%;
+            margin-top: 12px;
+            font-weight: 800;
+    margin-left: 10px;
+}
+.button1 {
+    margin-top: 29px;
+    padding: 10px 34px;
+    background-color: #ffc145;
+    color: #181e4e;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+.button1:hover {
+    background-color: #181e4e;
+    color: #ffc145;
+}
+.fourth1{
+        width: 100%;
+            justify-content: space-between;
+            display: flex;
+                padding: 68px 51px;
+                max-width: 1350px;
+                    justify-items: center;
+                    margin: 0 auto;
+}
+.card{
+    width: 55%;
+}
+.card h1{
+        font-weight: 800;
+            font-size: 42px;
+            margin-bottom: 20px;
+}
+.card h3{
+    color: #374151;
+   margin-bottom: 20px;
+}
+.card p{
+    line-height: 1.5;
+    font-size: 18px;
+}
+.fourth1 .img img{
+        height: 465px;
+        width: 434px;
+}
+.button2{
+         margin-top: 29px;
+            padding: 7px 5px;
+            background-color: #ffc145;
+            color: #181e4e;
+            border: none;
+            font-size: 23px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-left: 10px;
+}
+.button2:hover {
+    background-color: #181e4e;
+    color: #ffc145;
+}
+
+.third1 {
+    background-image: url('https://www.digitalmarketingagency.com/static/images.ctfassets.net/bete4dit0n31/110wbdtYVsuyKjzu7Zs2xV/30967814865a53d13f1d724707d453c0/service-5.webp');
+    background-size: cover;
+    /* Ensures the image covers the entire section */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    /* Prevents repetition */
+    color: #fff;
+    /* White text for readability */
+    min-height: 300px;
+    /* Minimum height of the section */
+    padding: 50px 20px;
+    /* Adds internal spacing */
+}
