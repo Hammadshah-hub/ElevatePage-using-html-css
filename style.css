@@ -50,7 +50,7 @@ margin: 0 auto;
 .second-div nav{
 padding: 16px 81px;
     display: flex;
-    gap: 35px;
+    gap: 32px;
     color: black;
     font-weight: 900;
     width: 100%;
@@ -397,7 +397,10 @@ button:hover {
     color: #ffc145;
 }
 
-.third1 {
+/* lion tag */
+
+
+.third2 {
     background-image: url('https://www.digitalmarketingagency.com/static/images.ctfassets.net/bete4dit0n31/110wbdtYVsuyKjzu7Zs2xV/30967814865a53d13f1d724707d453c0/service-5.webp');
     background-size: cover;
     /* Ensures the image covers the entire section */
@@ -405,10 +408,65 @@ button:hover {
     /* Centers the image */
     background-repeat: no-repeat;
     /* Prevents repetition */
-    color: #fff;
-    /* White text for readability */
     min-height: 300px;
     /* Minimum height of the section */
-    padding: 50px 20px;
-    /* Adds internal spacing */
+    display: flex;
+    /* Enables flexbox layout */
+    justify-content: flex-end;
+    /* Aligns content to the right */
+    align-items: center;
+    /* Vertically centers the content */
+    padding: 20px;
+    /* Adds spacing around the content */
+    color: #fff;
+    /* White text for readability */
+        
+    
 }
+    
+.subthird111{
+    justify-items: center;
+        margin: 0 auto;
+        border-left: 3px solid white;
+}
+.subthird11{
+    max-width: 1350px;
+        
+        
+        
+}
+.subthird2 {
+    
+
+    max-width: 662px;
+   
+        padding-left: 13px;
+            padding-right: 67px;
+}
+
+.subthird2 h1 {
+    font-size: 2rem;
+    /* Large font size for main heading */
+    margin-bottom: 10px;
+    /* Adds spacing below the heading */
+        font-weight: 900;
+}
+
+.subthird2 h2 {
+    font-size: 1.5rem;
+    /* Subheading font size */
+    margin-bottom: 15px;
+    /* Adds spacing below the subheading */
+        font-weight: 900;
+}
+
+.subthird2 p {
+    font-size: 1rem;
+    /* Paragraph font size */
+    margin-bottom: 20px;
+    /* Adds spacing below the paragraph */
+    line-height: 1.6;
+        font-weight: 900;
+    /* Improves readability */
+}
+
