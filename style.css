@@ -412,7 +412,7 @@ button:hover {
     /* Minimum height of the section */
     display: flex;
     /* Enables flexbox layout */
-    justify-content: flex-end;
+    
     /* Aligns content to the right */
     align-items: center;
     /* Vertically centers the content */
@@ -420,6 +420,8 @@ button:hover {
     /* Adds spacing around the content */
     color: #fff;
     /* White text for readability */
+        justify-content: center;
+        padding-left: 500px;
         
     
 }
@@ -470,3 +472,8 @@ button:hover {
     /* Improves readability */
 }
 
+
+
+.last{
+    color: #181e4e;
+}
