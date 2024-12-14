@@ -215,10 +215,11 @@ button {
     font-size: 25px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    border: 2px solid #fff;
 }
 button:hover {
     background-color: #181e4e;
-    color: #ffc145;
+    color: #fff;
 }
 .secsec {
     padding: 20px;
@@ -340,12 +341,13 @@ button:hover {
     margin-top: 29px;
     padding: 10px 34px;
     background-color: #ffc145;
-    color: #181e4e;
+    color: #fff;
     border: none;
     font-size: 25px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-left: 10px;
+    border: 2px solid #fff;
 }
 
 .button1:hover {
@@ -391,10 +393,12 @@ button:hover {
             cursor: pointer;
             transition: background-color 0.3s ease;
             margin-left: 10px;
+    border: 2px solid #181e4e;
 }
 .button2:hover {
     background-color: #181e4e;
     color: #ffc145;
+    border: 2px solid #fff;
 }
 
 /* lion tag */
